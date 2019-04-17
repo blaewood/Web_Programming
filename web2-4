@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+<html>
+
+<head><tile>이미지삽입</tile></head>
+
+
+<body>
+
+<h3>이미지삽입</h3> 
+<hr> 
+<p>엘비스프레슬리의사진입니다.</p>
+<imgsrc="media/Elvis1.jpg"width="150"height="20"  alt="Elvis">  <imgsrc="media/ktae.jpg"width="80height="10"  alt="황기태사진없음">  <imgsrc="htp:/img.naver.nt/satic/w/u2013/0731/nms_249051.gif"  alt=“사진주소변경됨"width="10"height="10"> 
+</body>
+
+
+
+</html>
