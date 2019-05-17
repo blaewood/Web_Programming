@@ -1,0 +1,26 @@
+<!doctype html>
+
+<html>
+<head><title>실습</title></head>
+
+<body>
+	<h3>난수 만들기</h3>
+	<hr>
+	<script>
+		var max=0;
+	for(i=0; i<10; i++) {
+var m = Math.random()*100; // m은 0~99.999... 보다 작은 실수 난수
+var n[i] = Math.floor(m); // m에서 소수점 이하를 제거한 정수(0~99사이)
+document.write(n+" ");
+		if(max<n[i])
+			{max=n[i];}
+}
+	document.write(max);
+	</script>
+	
+	
+	</body>
+
+
+
+</html>

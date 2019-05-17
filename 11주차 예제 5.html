@@ -1,0 +1,27 @@
+<!doctype html>
+
+<html>
+<head><title>document 객체의 프로퍼티 출력</title></head>
+
+	
+	<body>
+	<h3>document의 주요 프로퍼티</h3>
+	<hr>
+	<p>네이버 홈페이지</p>
+		<div>.이곳은 div 영역입니다</div>
+		
+<script>
+var p = document.getElementById("firstP");
+var text = "p.id = " + p.id + "\n";
+text += "p.tagName = " + p.tagName + "\n";
+text += "p.innerHTML = " + p.innerHTML + "\n";
+text += "p.style.color = " + p.style.color + "\n";
+text += "p.onclick = " + p.onclick + "\n";
+text += "p.childElementCount = " + p.childElementCount + "\n";
+text += "너비 = " + p.offsetWidth + "\n";
+text += "높이 = " + p.offsetHeight + "\n";
+alert(text);
+</script>
+	</body>
+
+</html>

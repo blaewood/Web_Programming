@@ -1,0 +1,49 @@
+<!doctype html>
+
+<html>
+<head><title>book 객체 배열 만들기</title>
+	
+	<script>
+	function Book(title, author, price){
+		
+		this.title=title;
+		this.author=author;
+		this.price=price;
+	}
+		Book.prototype.printbook=function(){
+			document.write(this.title+" "+this.author+" "+this.price+"<br>");
+		}
+		var arraylist=[
+			["HTML5", "황기태", 60000]
+				["HTML5", "황기태", 60000]
+				["HTML5", "황기태", 60000]
+				["HTML5", "황기태", 60000]
+				["HTML5", "황기태", 60000]
+		]
+	
+	</script>
+	
+	
+	</head>
+
+<body>
+	<h3>book 객체 배열 만들기</h3>
+	<hr>
+	<script>
+	var book1=new Book(HTML5, 황기태, 60000);
+		document.write(book1.printbook());
+	var book2=new Book(CSS3, 이재문, 50000);
+		document.write(book2.printbook());
+	var book3=new Book(스폰지밥, Grace, 30000);
+		document.write(book3.printbook());
+	var book4=new Book(C++, Kitae, 25000);
+		document.write(book4.printbook());
+	var book5=new Book(HTML5, 황기태, 20000);
+		document.write(book5.printbook());
+		
+	</script>
+	
+	
+	</body>
+
+</html>
